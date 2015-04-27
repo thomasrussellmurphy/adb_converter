@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x0ADB
 #define DEVICE_VER      0x0101
-#define MANUFACTURER    t.m.k.
+#define MANUFACTURER    trm/t.m.k.
 #define PRODUCT         ADB keyboard converter
 #define DESCRIPTION     convert ADB keyboard to USB
 
@@ -49,7 +49,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ADB_PIN         PIND
 #define ADB_DDR         DDRD
 #define ADB_DATA_BIT    0
-//#define ADB_PSW_BIT     1       // optional
+#define ADB_PSW_BIT     1       // optional
 
 /* key combination for command */
 #ifndef __ASSEMBLER__
