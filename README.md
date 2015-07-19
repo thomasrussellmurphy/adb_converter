@@ -1,6 +1,15 @@
 # adb_converter
-A subset of tmk/tmk_keyboard with just the Apple Desktop Bus functionality.
 
-This is the firmware for a pair of circuit boards that I designed and built. To give me ease of isolation from the upstream development, I created this repository with the correct configurations for both boards.
+A subset of [tmk_keyboard][keyboard] with just the Apple Desktop Bus
+functionality.
 
-The designs of the boards are not currently available, but may be published if revised to correct substantial errors in the designs.
+This is the firmware for circuit boards that I designed and built. To give me
+ease of isolation from the upstream development, I created this repository with
+the correct configurations for both boards.
+
+The manufacturing files for these boards is available at [adb-to-usb][boards].
+The information may be incomplete and some revisions of the boards have severe
+errors, but they were coaxed into functioning.
+
+[keyboard]: https://github.com/tmk/tmk_keyboard
+[boards]: https://github.com/thomasrussellmurphy/adb-to-usb
